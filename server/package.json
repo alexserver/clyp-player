@@ -1,0 +1,19 @@
+{
+  "name": "clyp-player-server",
+  "version": "1.0.0",
+  "description": "An API for the clyp-player",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "babel-node app"
+  },
+  "author": "Alejandro Gomez <alexserverone@gmail.com> (http://alexserver.me)",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}

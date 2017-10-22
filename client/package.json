@@ -1,0 +1,21 @@
+{
+  "name": "clyp-player",
+  "version": "1.0.0",
+  "description": "A webplayer for Clypt (https://clyp.it/api)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel source -d dest",
+    "go": "npm run build && node dest/app"
+  },
+  "author": "Alejandro Gomez <alexserverone@gmail.com> (http://alexserver.me)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
